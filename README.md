@@ -8,9 +8,10 @@ $ mkdir winemap && cd "$_"
 $ pip install virtualenv
 $ virtualenv venv
 $ source venv/bin/activate
-$ git clone https://github.com/cxplanet/vicarial-winemap .
-$ cd server
+$ git clone https://github.com/cxplanet/vicarial-winemap 
+$ cd vicarial-winemap/server
 $ pip install -r requirements.txt
+$ python manage.py migrate
 $ python manage.py runserver
 ```
 
