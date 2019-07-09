@@ -1,4 +1,4 @@
-Django==1.9.7
+Django==2.1.0
 django-test-addons==1.0
 mongoengine==0.10.6
 pymongo==3.2.2
